@@ -1,0 +1,64 @@
+:root {
+    --font-family: Poppins, sans-serif;
+
+}
+
+body {
+    /* background: url(https://source.unsplash.com/fMD_Cru6OTk) center/cover no-repeat; */
+
+    background-image: linear-gradient(to right, #ec2c2c, #e9993d);
+    font-family: var(--font-family);
+   
+}
+
+
+h1 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.div {
+   
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input{
+    width: 50rem;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.plus{
+    background-color:#e9993d ;
+    font-weight: bolder;
+}
+
+.trash{
+    background-color: #ec2c2c;
+}
+
+.tasks-container{
+    max-width: 600px;
+    margin: 4rem auto;
+    
+    text-align: center;
+}
+
+.tasks-container li:nth-child(odd){
+    background-color: #ffffff;
+    border-radius: 6rem; ;
+}
+.tasks-container li:nth-child(even){
+    
+    border-radius: 6rem; ;
+}
+
+
